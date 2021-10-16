@@ -37,6 +37,6 @@ io.on('connection', (socket) => {
     });
   });
   
-server.listen($PORT, () => {
-  console.log('listening on *:$PORT');
+server.listen(4139, () => {
+  console.log('listening on *:4139');
 });
